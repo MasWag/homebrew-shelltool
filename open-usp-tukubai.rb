@@ -1,9 +1,9 @@
 class OpenUspTukubai < Formula
-  desc "Open usp Tukubai"
+  desc "Tukubai command set for open source version"
   homepage "https://uec.usp-lab.com/TUKUBAI/CGI/TUKUBAI.CGI?POMPA=DOWNLOAD"
-  url "https://github.com/usp-engineers-community/Open-usp-Tukubai.git", :revision => "7a91a42a09f499bff947ce021454713c46b45775"
-  version "20170706"
-  head "https://github.com/usp-engineers-community/Open-usp-Tukubai.git", :branch => "master"
+  url "https://github.com/usp-engineers-community/Open-usp-Tukubai.git", revision: "be1fdd44f8a9a7d27e92eb8d852f1af067becca1"
+  version "20220819"
+  head "https://github.com/usp-engineers-community/Open-usp-Tukubai.git", branch: "master"
 
   def install
     ENV.append "LOCALBASE", prefix
