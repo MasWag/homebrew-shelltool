@@ -1,8 +1,8 @@
 class OpenUspTukubai < Formula
   desc "Tukubai command set for open source version"
   homepage "https://uec.usp-lab.com/TUKUBAI/CGI/TUKUBAI.CGI?POMPA=DOWNLOAD"
-  url "https://github.com/usp-engineers-community/Open-usp-Tukubai.git", revision: "4bc409c11f0180a40728a55b336b93cef7220ce5"
-  version "20220926"
+  url "https://github.com/usp-engineers-community/Open-usp-Tukubai.git", revision: "047a44182793b95920605903768866b9c8e20f4c"
+  version "20221112"
   # head "https://github.com/usp-engineers-community/Open-usp-Tukubai.git", branch: "master"
 
   def install
